@@ -20,10 +20,13 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  gap: 70px;
 }
 
 .left-text,
-.right-text {
+.right-text,
+.left-score-text,
+.right-score-text {
   font-size: 36px;
   font-weight: 700;
 }
@@ -54,6 +57,11 @@ body {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
+    flex: 2;
+}
+
+#restart{
+  display: none;
 }
 
 .element-button {
